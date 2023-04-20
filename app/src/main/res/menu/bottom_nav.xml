@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/btHome"
+        android:title="Home"
+        android:icon="@drawable/home"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/btSearch"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/btUpload"
+        android:title="Upload"
+        android:icon="@drawable/ic_add"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/btVideo"
+        android:title="Video"
+        android:icon="@drawable/insta_video"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/btAccount"
+        android:title="Account"
+        android:icon="@drawable/ic_account"
+        app:showAsAction="ifRoom"/>
+</menu>
